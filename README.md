@@ -5,7 +5,6 @@
 <h1>Vue  admin</h1>
 </div>
 
-
 ## 简介
 
 Vue Vben Admin 是一个免费开源的中后台模版。使用了最新的`vue3`,`vite2`,`TypeScript`等主流技术开发，开箱即用的中后台前端解决方案，也可用于学习参考。
@@ -28,8 +27,6 @@ Vue Vben Admin 是一个免费开源的中后台模版。使用了最新的`vue3
 - [vben-admin-thin-gh-pages](https://anncwb.github.io/vben-admin-thin-next/) - 简化版 github 站点
 
 测试账号: vben/123456
-
-
 
 ## 文档
 
@@ -84,7 +81,6 @@ yarn build
 - [vue-vben-admin](https://github.com/anncwb/vue-vben-admin) - 完整版
 - [vue-vben-admin-thin-next](https://github.com/anncwb/vben-admin-thin-next) - 简化版
 
-
 ## Git 贡献提交规范
 
 - 参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md) 规范 ([Angular](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular))
@@ -102,4 +98,3 @@ yarn build
   - `ci` 持续集成
   - `types` 类型定义文件更改
   - `wip` 开发中
-

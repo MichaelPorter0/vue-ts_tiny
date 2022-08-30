@@ -1,33 +1,9 @@
-module.exports = {
-  ignores: [(commit) => commit.includes('init')],
-  extends: ['@commitlint/config-conventional'],
-  rules: {
-    'body-leading-blank': [2, 'always'],
-    'footer-leading-blank': [1, 'always'],
-    'header-max-length': [2, 'always', 108],
-    'subject-empty': [2, 'never'],
-    'type-empty': [2, 'never'],
-    'subject-case': [0],
-    'type-enum': [
-      2,
-      'always',
-      [
-        'feat',
-        'fix',
-        'perf',
-        'style',
-        'docs',
-        'test',
-        'refactor',
-        'build',
-        'ci',
-        'chore',
-        'revert',
-        'wip',
-        'workflow',
-        'types',
-        'release',
-      ],
-    ],
-  },
-};
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: miporterg
+ * @Date: 2022-08-30 14:45:28
+ * @LastEditors: miporterg
+ * @LastEditTime: 2022-08-30 15:29:24
+ */
+module.exports = { extends: ['@commitlint/config-conventional'] };
